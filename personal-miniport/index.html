@@ -1,0 +1,471 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Swati Thakur Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<style>
+			.hidden {
+			  display: none;
+			}
+			.flip-container {
+  perspective: 1000px;
+}
+
+.flip-container:hover .flipper, .flip-container.hover .flipper {
+  transform: rotateY(180deg);
+}
+
+.flip-container, .front, .back {
+  width: 100%;
+  height: 100%;
+}
+
+.flipper {
+  transition: 0.6s;
+  transform-style: preserve-3d;
+  position: relative;
+}
+
+.front, .back {
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.front {
+  z-index: 2;
+}
+
+.back {
+  transform: rotateY(180deg);
+}
+		  </style>
+	</head>
+	<body class="is-preload">
+
+		<!-- Nav -->
+			<nav id="nav">
+				<ul class="container">
+					<li><a href="#top">About </a></li>
+					<li><a href="#work">Experience</a></li>
+					<li><a href="#skills">Skills</a></li>
+					<li><a href="#portfolio">Projects</a></li>
+					<li><a href="#contact">Education</a></li>
+					<li><a href="images/Resume.pdf" download target="_blank">Resume</a></li>
+				</ul>
+			</nav>
+
+		<!-- Home -->
+			<article id="top" class="wrapper style1">
+				<div class="container">
+					<div class="row">
+						<div class="col-4 col-5-large col-12-medium">
+							<span class="image fit"><img src="images/avatar.jpeg" alt="" /></span>
+						</div>
+						<div class="col-8 col-7-large col-12-medium">
+							<header>
+								<h1>Hi. I'm <strong>Swati Thakur</strong>.</h1>
+							</header>
+							<p style="font-size: 22px; text-align: justify;">Experienced Developer skilled in web development and modern technologies. 
+								Proficient in Python (Flask), Vue, Angular, React, SFDC, and Hybris UI, with strong 
+								capabilities in HTML, CSS, JavaScript, TypeScript, jQuery, and SQL. Expertise in 
+								ensuring timely delivery, enhancing application stability and scalability, and leading full
+								 software development life cycles. Seasoned in design tools like Figma, Photoshop, and Invision. 
+								 Known for strong leadership, communication, and problem-solving abilities.
+								 Committed to staying updated with emerging trends, driving projects to success.</p>
+							<a href="#work" class="button large scrolly">Learn more about me</a>
+						</div>
+					</div>
+				</div>
+			</article>
+
+			<article id="skills" class="wrapper style1">
+				<div class="container">
+					<div class="row">
+						<h2>Skills</h2>
+						
+						<h5>Languages and Databases</h5>
+						<div class="row aln-center">
+							<div class="col-3 col-6-medium col-12-small">
+								<section class="box style1">
+									<img src="images/JS_logo.jpg" alt="" width="50" height="50">
+									<h3>JavaScript</h3>
+								</section>
+							</div>
+							<div class="col-3 col-6-medium col-12-small">
+								<section class="box style1">
+									<img src="images/TS_logo.jpg" alt="" width="50" height="50">
+									<h3>TypeScript</h3>
+								</section>
+							</div>
+							<div class="col-3 col-6-medium col-12-small">
+								<section class="box style1">
+									<img src="images/python-logo.jpg" alt=""  width="50" height="50">
+									<h3>Python</h3>
+								</section>
+							</div>
+							<div class="col-3 col-6-medium col-12-small">
+								<section class="box style1">
+									<img src="images/mysql-logo.jpg" alt="" width="100" height="50">
+									<h3>MySql</h3>
+								</section>
+							</div>
+						</div>
+						<h5>Libraries</h5>
+						<div class="row aln-center">
+							<div class="col-3 col-6-medium col-12-small">
+								<section class="box style1">
+									<img src="images/react.png" alt="" width="50" height="50">
+									<h3>React</h3>
+								</section>
+							</div>
+							<div class="col-3 col-6-medium col-12-small">
+								<section class="box style1">
+									<img src="images/jquery.png" alt="" width="50" height="50">
+									<h3>Jquery</h3>
+								</section>
+							</div>
+							<div class="col-3 col-6-medium col-12-small">
+								<section class="box style1">
+									<img src="images/pandas.jpg" alt="" width="50" height="50">
+									<h3>Pandas </h3>
+								</section>
+							</div>
+							<div class="col-3 col-6-medium col-12-small">
+								<section class="box style1">
+									<img src="images/numpy-logo.jpeg" alt="" width="50" height="50">
+									<h3>Numpy</h3>
+								</section>
+							</div>
+							<!-- <div class="col-3 col-6-medium col-12-small">
+								<section class="box style1">
+									<img src="images/skitlearn.jpg" alt="" width="50" height="50">
+									<h3>sklearn</h3>
+								</section>
+							</div> -->
+						</div>
+						<h5>Framework</h5>
+						<div class="row aln-center">
+							<div class="col-3 col-6-medium col-12-small">
+								<section class="box style1">
+									<img src="images/angular.jpg" alt="" width="50" height="50">
+									<h3>Angular</h3>
+								</section>
+							</div>
+							<div class="col-3 col-6-medium col-12-small">
+								<section class="box style1">
+									<img src="images/vue.jpg" alt="" width="50" height="50">
+									<h3>Vue</h3>
+								</section>
+							</div>
+							<div class="col-3 col-6-medium col-12-small">
+								<section class="box style1">
+									<img src="images/bootstrap.jpg" alt="" width="50" height="50">
+									<h3>Bootstrap</h3>
+								</section>
+							</div>
+							<div class="col-3 col-6-medium col-12-small">
+								<section class="box style1">
+									<img src="images/tailwind.png" alt="" width="80" height="50">
+									<h3>Tailwind</h3>
+								</section>
+							</div>
+						</div>
+						<h5>Others</h5>
+						<div class="row aln-center">
+							<div class="col-3 col-6-medium col-12-small">
+								<section class="box style1">
+									<img src="images/git.png" alt="" width="50" height="50">
+									<h3>Git</h3>
+								</section>
+							</div>
+							<div class="col-3 col-6-medium col-12-small">
+								<section class="box style1">
+									<img src="images/aws.jpg" alt="" width="80" height="50">
+									<h3>AWS</h3>
+								</section>
+							</div>
+							<div class="col-3 col-6-medium col-12-small">
+								<section class="box style1">
+									<img src="images/docker.jpg" alt="" width="60" height="50">
+									<h3>Docker</h3>
+								</section>
+							</div>
+							<div class="col-3 col-6-medium col-12-small">
+								<section class="box style1">
+									<img src="images/JIRA.jpeg" alt="" width="50" height="50">
+									<h3>JIRA</h3>
+								</section>
+							</div>
+						</div>
+					</div>
+				</div>
+			</article>
+
+		<!-- Work -->
+			<article id="work" class="wrapper style2">
+				<div class="container">
+					<header>
+						<h2>Experience </h2>
+						<p>Companies where I've gained experience include...</p>
+					</header>
+					<div class="row aln-center">
+						<div class="col-4 col-6-medium col-12-small">
+							<section class="box style1">
+								<img src="images/wipro.jpg" alt="" width="150" height="100">
+								<h3>Technical Lead</h3>
+								<p>Wipro Technologies, India <br/>
+									August 2018 - till now</p>
+								<div class="toggle-content"><p class="initial-text text-center read-more-roles">Role and Responsibilties: 
+								</p>
+								<p class="hidden-text margin-bottom" style="display: none;">
+									<span>Stay up-to-date with emerging technologies and industry trends,
+									Communicate project status and technical updates to stakeholders and management,
+									Ensure timely delivery of software products and features,
+									Implemented Redux for state management, enhancing application stability and scalability. Also Utilized RXJS to streamline asynchronous operations, improving application performance,
+									Participate in agile development processes, including sprint planning, daily stand- ups, and retrospectives,
+									Conducted automated testing with Jest/Jasmine/Karma, ensuring code quality and reducing bugs</span>
+									
+								</p></div>
+							</section>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<section class="box style1">
+								<img src="images/Thomson_logo.png" alt="" width="170" height="100">
+								<h3>Senior Web Developer</h3>
+								<p>Thomson Reuters, India <br/>
+									August 2010 - May 2018 </p>
+									<div class="toggle-content"><p class="initial-text text-center read-more-roles">Role and Responsibilties: 
+									</p>
+									<p class="hidden-text margin-bottom" style="display: none;">
+										<span>Work with product managers and stakeholders to understand business,
+											requirements and translate them into technical solutions,
+											Participate in the full software development life cycle, including requirements gathering, design, development, testing, and deployment,
+											Stay up-to-date with emerging trends and technologies in software engineering,
+											Lead and mentor junior developers to ensure high-quality code and adherence to best practices. </span>
+										
+									</p></div>
+							</section>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<section class="box style1">
+								<img src="images/vsp-sticky-logo.png" alt="" width="185" height="45">
+								<h3>Web Designer and integrator</h3>
+								<p> Vsplash, India <br/>
+									August 2008 - April 2010</p>
+									<div class="toggle-content"><p class="initial-text text-center read-more-roles">Role and Responsibilties: 
+									</p>
+									<p class="hidden-text margin-bottom" style="display: none;">
+										<span>Using different design tools such as Figma, photoshop and Invision to create wireframe and 
+											website layout for different clients,
+											Implement best practices for website development, including testing, 
+											documentation, and version control. </span>
+										
+									</p></div>
+							</section>
+						</div>
+					</div>
+					<footer>
+						<a href="#portfolio" class="button large scrolly">See some of my recent work</a>
+					</footer>
+				</div>
+			</article>
+			<!-- Hidden divs containing the text to display in the popups -->
+
+
+		<!-- Portfolio -->
+			<article id="portfolio" class="wrapper style3">
+				<div class="container">
+					<header>
+						<h2>Project</h2>
+						<p>Projects I've been involved in encompass...</p>
+					</header>
+					<div class="row">
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="#" class="image featured"><img src="images/logo_levis.avif" width="206" height="86" alt="" /></a>
+								<h3><a href="#"> Web  Application</a></h3>
+								<div class="toggle-content"><p class="initial-text text-justify">Managing and building the apps for different user. Mainly handled apps are User RVT, View RVT, Nest RVT,
+									Design RVT. User RVT store all the information regarding vendors, admin and third party user also this app
+									provide different access to the User as per their authorities.
+									
+									Whereas View RVT handled all kind of product
+									information which </p><p class="hidden-text" style="display: none;">include season collections and  different types of assortment. All the apps are window
+									and IOS friendly, User can perform different action to delete, edit, create and update the products. Most of
+									the app has been build using Vue.js and three.js. Managing all backend to frontend connectivity using
+									Restful api services also using graph QL. We are making sure using all the kind of dev and initially testing
+									has been done before handling the product to next stage. Following agile methodology and using JIRA
+									dashboard to track the progress of assigned user stories to each individual.</p>
+									<p style="font-weight: bold;">Technologies : React, Redux, HTML5, CSS3, JavaScript, jQuery, AJAX, JSON, graph QL</p>
+									<button class="read-more-btn">Read More</button></div>
+								</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="#" class="image featured"><img src="images/johnson-johnson-logo.jpg" width="300" alt="" style="margin-top: 25px;" /></a>
+								<h3><a href="#">Dashboard App</a></h3>
+								<div class="toggle-content"><p class="initial-text text-justify">Spartacus is a lean, Angular-based JavaScript storefront for SAP Commerce Cloud. 
+									Using Spartacus as base framework we have created the login, registration, home and 
+									cart page for our SG application, as Spartacus provides default layout for different store </p><p class="hidden-text" style="display: none;">
+									(e.g. Electronics) the challenge was to manipulate the design from their existing layout to our 
+									wireframe using the technology like Angular JS, SCSS, HTML, we have achieved it successfully.
+									We have created the component in SAP Commerce Cloud and through rest API and were displaying 
+									the product in our cart. Also, as Its angular based storefront, 
+									we were able to achieve the Single page application indeed.</p>
+									<p style="font-weight: bold;">Technologies : Angular 10, JavaScript, React, HTML5, CSS3, jQuery, AJAX, JSON,  Node Js, Adobe XD, JIM,
+										Git, Pattern Library, Storybook, Spartacus </p>
+										<button class="read-more-btn">Read More</button></div>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="#" class="image featured"><img src="images/pb.jpg" width="300" alt="" style="margin-top: 12px;" /></a>
+								<h3><a href="#">E-commerce App</a></h3>
+								<div class="toggle-content"><p class="initial-text text-justify">Your Account module of PitneyBowes.com which 
+									is the new dashboard functionality for the customers to get a 360 degree view of the activities
+									 in their account. Also we are rolling out the new functionalities for US and Canada. 
+									
+									There is a gap noticed in maintaining email notifications for
+										 paperless billing. </p>
+										 <p class="hidden-text" style="display: none;"> Also, it was a bit confusing for the user with paperless billing notifications in current flow. To address this issue, New UX designs with simple to understand tabs/accordion has been  designed for better understanding of the flow. 
+									 
+									The project involves maintenance and enhancement of PB Digital Platform which involve enhancement & maintenance of components and features, Based on the Business requirement or Feature Enhancement 
+									to improve the performance/impact. </p>
+									<p style="font-weight: bold;">Technologies : React, Redux, HTML5, CSS3, JavaScript, jQuery, AJAX, JSON, graph QL</p>
+									<button class="read-more-btn">Read More</button></div>
+							
+								</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="#" class="image featured"><img src="images/stockd.jpg" width="300" alt=""  style="margin-top: 5px;"/></a>
+								<h3><a href="#">E-commerce App</a></h3>
+								<p class="initial-text text-justify">stockd.com is premier health supplier in B2B (Business to Business ) and B2C(Business to customer)
+									 level mainly in US market, its e-commerce domain which provide the opportunity  to explore 
+									 the different  skill from UX designing through Just In Mind/ Adobe XD to implement  it front end using all niche front end technologies, 
+									product category and details  page has multiple attractive UI feature. </p>
+									<p style="font-weight: bold;" class="initial-text text-justify">Technologies : Vue.js, JavaScript, Rest Api, CI/CD, Json, Git, AWS </p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="#" class="image featured"><img src="images/phlip.jpg" width="300" alt=""  style="margin-top: 5px;"/></a>
+								<h3><a href="#">Web Application</a></h3>
+								<div class="toggle-content"><p class="initial-text text-justify">The MCS platform components runs as a service and hosted in Health Suite Digital Platform environment to interact with gateway. MCS Solution contains two new services namely Control Service & Self Service portal.
+									 MCS Control handles</p>
+									<p class="hidden-text" style="display: none;"> MCS Configuration, Catalogue (gateway & peripheral types), 
+								
+									Status and Configuration (gateway & peripheral instances), Inventory of Client, Tenant & User.  We are creating a dashboard for HSDP portal of the 
+										account which include the Component development. </p>
+							
+										<p style="font-weight: bold;">Technologies : Angular8, Typescript, HTML5, CSS3, JavaScript, jQuery, AJAX, JSON, REST API, Node Js, Git </p>
+									<button class="read-more-btn">Read More</button></div>
+								</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="#" class="image featured"><img src="images/findlaw.jpg" width="300" alt="" style="margin-top: 10px;" /></a>
+								<h3><a href="#">Customer  Portal</a></h3>
+								<p class="initial-text text-justify">Thomson Customer Operation Portal provides a complete solution for managing
+									corporate disclosure and brokerage event information. The Events, Transcripts,
+								   Briefs and Filings services provide advanced alerting, customizable WatchLists and synchronized desktop management,
+									enabling investment professionals to increase efficiency and productivity while reducing costs. </p>
+									<p style="font-weight: bold;" class="initial-text text-justify">Technologies : HTML5, CSS3, JavaScript, jQuery, AJAX, JSON, REST API, Node Js, Git </p>
+							</article>
+						</div>
+					</div>
+					<footer>
+						<a href="#contact" class="button large scrolly">Get in touch with me</a>
+					</footer>
+				</div>
+			</article>
+
+		<!-- Contact -->
+			<article id="contact" class="wrapper style4">
+				<div class="container medium">
+					<header>
+						<h2>Education</h2>
+						<p>Institutions where I've gained knowledge and skills include...</p>
+					</header>
+					<div class="row">
+						<div class="col-12">
+							<ul style="text-align: left; color: white;">
+								<li>
+									<strong style="color: white;">
+									Master of Science (MSc) in IT with Business Data Analytics, </strong>
+									International Business School (IBS), Budapest, Hungary, Expected Graduation: September 2024
+
+								</li>
+								<li>
+									<strong style="color: white;">Bachelor of Engineering in Chemical, 2000 - 2004,</strong>
+									Pt. Ravishankar Shukla University, Raipur, India
+								</li>
+							</ul>
+						</div>
+						<div class="col-12">
+							<hr />
+							<h3>Find me on ...</h3>
+							<ul class="social">
+								<li><a href="https://www.linkedin.com/in/swati-thakur-359444199/" class="icon brands fa-linkedin-in" target="_blank" ><span class="label">LinkedIn</span></a></li>
+								<li><a href="https://github.com/Sthakur19/" target="_blank" class="icon brands fa-github"><span class="label">Github</span></a></li>
+								<li><a href="https://wa.me/+36703031047" class="icon brands fa-whatsapp" target="_blank" ><span class="label">WhatsApp</span></a></li>
+							</ul>
+							<hr />
+						</div>
+					</div>
+					<footer>
+						<ul id="copyright">
+							<li>&copy; Swati Thakur. All rights reserved.</li>
+						</ul>
+					</footer>
+				</div>
+			</article>
+
+			<script>
+				// JavaScript to handle "Read More" functionality
+				document.addEventListener('DOMContentLoaded', function() {
+					// Get all "Read More" buttons
+					var readMoreButtons = document.querySelectorAll('.read-more-btn');
+			
+					// Add click event listener to each "Read More" button
+					readMoreButtons.forEach(function(button) {
+						button.addEventListener('click', function() {
+							// Toggle the display of initial and hidden text
+							var initialText = this.parentElement.querySelector('.initial-text');
+							var hiddenText = this.parentElement.querySelector('.hidden-text');
+							
+							if (hiddenText.style.display === 'none') {
+								hiddenText.style.display = 'block';
+								this.textContent = 'Read Less';
+							} else {
+								hiddenText.style.display = 'none';
+								this.textContent = 'Read More';
+							}
+						});
+					});
+					var readMoreButtons = document.querySelectorAll('.read-more-roles');
+			
+					// Add click event listener to each "Read More" button
+					readMoreButtons.forEach(function(button) {
+						button.addEventListener('click', function() {
+							// Toggle the display of initial and hidden text
+							var initialText = this.parentElement.querySelector('.initial-text');
+							var hiddenText = this.parentElement.querySelector('.hidden-text');
+							
+							if (hiddenText.style.display === 'none') {
+								hiddenText.style.display = 'block';
+								this.textContent = 'Role and Responsibilties: ';
+							} else {
+								hiddenText.style.display = 'none';
+								this.textContent = ' Role and Responsibilties: ';
+							}
+						});
+					});
+				});
+			</script>
+			
+	</body>
+</html>
